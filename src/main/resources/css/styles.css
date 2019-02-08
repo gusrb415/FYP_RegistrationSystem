@@ -1,0 +1,39 @@
+Label {
+    -fx-font-size: 20;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+Button {
+    -fx-font-size: 20;
+    -fx-font-family: "Arial";
+    -fx-pref-width: 300;
+    -fx-pref-height: 60;
+    -fx-background-radius: 16px;
+    -fx-background-color: lightgrey;
+    -fx-text-fill: black;
+}
+
+Button:hover {
+    -fx-background-color: rgb(120, 120, 120);
+    -fx-text-fill: white;
+}
+
+VBox, HBox {
+
+}
+
+.small-size {
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+.small-button {
+    -fx-pref-width: 190;
+    -fx-pref-height: 30;
+}
+
+.warning-text {
+    -fx-text-fill: red;
+    -fx-font-size: 15;
+}
